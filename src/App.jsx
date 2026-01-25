@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/mystery-book-club">
       <Navbar />
       <main className="main-content">
         <Routes>
