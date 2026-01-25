@@ -1161,7 +1161,7 @@
     "dateRead": "March 2016",
     "coverImage": "",
     "isbn": "",
-    "recommendedBy": "Billy L.",
+    "recommendedBy": "Billy",
     "genre": "Noir classic?",
     "publicationDate": 1959
   },
@@ -1172,7 +1172,7 @@
     "dateRead": "February 2016",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780007552443-M.jpg",
     "isbn": "9780007552443",
-    "recommendedBy": "Karen Ba.",
+    "recommendedBy": "Karen",
     "genre": "modern thriller",
     "publicationDate": 2015
   },
@@ -1183,7 +1183,7 @@
     "dateRead": "January 2016",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9781440673405-M.jpg",
     "isbn": "9781440673405",
-    "recommendedBy": "Betty B.",
+    "recommendedBy": "Betty",
     "genre": "historical mystery",
     "publicationDate": 2009
   },
