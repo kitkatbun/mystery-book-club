@@ -3,6 +3,7 @@
     "id": 1,
     "title": "The Maid",
     "author": "Nita Prose",
+    "type": "book",
     "recommendedBy": "Sarah",
     "reason": "A delightfully quirky protagonist and a mystery that keeps you guessing until the end!",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780593356159-M.jpg"
@@ -11,6 +12,7 @@
     "id": 2,
     "title": "The 7½ Deaths of Evelyn Hardcastle",
     "author": "Stuart Turton",
+    "type": "book",
     "recommendedBy": "Margaret",
     "reason": "If you love Agatha Christie with a time-loop twist, this is perfect for our club.",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9781492657965-M.jpg"
@@ -19,6 +21,7 @@
     "id": 3,
     "title": "Mexican Gothic",
     "author": "Silvia Moreno-Garcia",
+    "type": "book",
     "recommendedBy": "David",
     "reason": "Gothic atmosphere meets mystery - spooky but cozy at the same time.",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780525620785-M.jpg"
@@ -27,6 +30,7 @@
     "id": 4,
     "title": "The Appeal",
     "author": "Janice Hallett",
+    "type": "book",
     "recommendedBy": "Sarah",
     "reason": "Told entirely through emails and messages - such a unique format!",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9781982157104-M.jpg"
@@ -35,6 +39,7 @@
     "id": 5,
     "title": "A Gentleman in Moscow",
     "author": "Amor Towles",
+    "type": "book",
     "recommendedBy": "Eleanor",
     "reason": "Not a traditional mystery, but the intrigue and atmosphere are perfect for cozy reading.",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780143110439-M.jpg"
@@ -43,6 +48,7 @@
     "id": 6,
     "title": "The Westing Game",
     "author": "Ellen Raskin",
+    "type": "book",
     "recommendedBy": "Margaret",
     "reason": "A classic puzzle mystery that's fun for all ages. Great for nostalgic readers!",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780142401200-M.jpg"
@@ -51,6 +57,7 @@
     "id": 7,
     "title": "In the Woods",
     "author": "Tana French",
+    "type": "book",
     "recommendedBy": "David",
     "reason": "Atmospheric Irish mystery with beautiful prose. The Dublin Murder Squad series is fantastic.",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780143113492-M.jpg"
@@ -59,6 +66,7 @@
     "id": 8,
     "title": "The House Across the Lake",
     "author": "Riley Sager",
+    "type": "book",
     "recommendedBy": "Eleanor",
     "reason": "Perfect lakeside thriller with plenty of twists. Great summer read!",
     "coverImage": "https://covers.openlibrary.org/b/isbn/9780593183199-M.jpg"
