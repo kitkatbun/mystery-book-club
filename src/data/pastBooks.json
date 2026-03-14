@@ -1,5 +1,16 @@
 [
   {
+    "id": 122,
+    "title": "We Solve Murders",
+    "author": "Richard Osman",
+    "dateRead": "March 2026",
+    "coverImage": "",
+    "isbn": "9780241608364",
+    "recommendedBy": "Allie",
+    "genre": "Mystery",
+    "publicationDate": "September 17, 2024"
+  },
+  {
     "id": 1,
     "title": "The Good Detective",
     "author": "John McMahon",
