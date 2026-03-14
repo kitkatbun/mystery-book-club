@@ -1,15 +1,30 @@
 import { useMemo } from 'react';
 import pastBooks from '../data/pastBooks.json';
 
-function NextUp() {
-  // Parse date string like "February 2026" into a Date object
-  const parseDate = (dateStr) => {
-    if (!dateStr || typeof dateStr !== 'string') return null;
-    // Add day 1 to make it parseable
-    const withDay = `1 ${dateStr}`;
-    const date = new Date(withDay);
-    return isNaN(date.getTime()) ? null : date;
+// Parse "Month Year" format to sortable date
+function parseMonthYear(dateStr) {
+  if (!dateStr || typeof dateStr !== 'string') return null;
+
+  const months = {
+    'january': 0, 'february': 1, 'march': 2, 'april': 3,
+    'may': 4, 'june': 5, 'july': 6, 'august': 7,
+    'september': 8, 'october': 9, 'november': 10, 'december': 11
   };
+
+  const parts = dateStr.toLowerCase().trim().split(/\s+/);
+  if (parts.length >= 2) {
+    const month = months[parts[0]];
+    const year = parseInt(parts[1]);
+    if (month !== undefined && !isNaN(year)) {
+      return new Date(year, month, 1);
+    }
+  }
+
+  return null;
+}
+
+function NextUp() {
+  const parseDate = parseMonthYear;
 
   // Analyze pick history to determine rotation
   const pickData = useMemo(() => {

@@ -14,6 +14,14 @@
   --sage-dark: #5C6650;
   --brown: #6B5344;
   --brown-light: #8B7355;
+  /* New colors */
+  --teal: #4A8B8B;
+  --teal-dark: #3A7070;
+  --teal-light: #6BA3A3;
+  --olive: #7A8B5A;
+  --olive-dark: #5C6B42;
+  --olive-light: #96A876;
+
   --text-dark: #3D3532;
   --text-muted: #6B5F58;
   --text-warm: #5C4F47;
@@ -250,7 +258,7 @@ h3 {
 
 .book-card-cover {
   height: 220px;
-  background: linear-gradient(145deg, var(--rust) 0%, var(--sage-dark) 100%);
+  background: linear-gradient(145deg, var(--teal-dark) 0%, var(--olive-dark) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -306,7 +314,7 @@ h3 {
 }
 
 .book-card-date {
-  color: var(--sage-dark);
+  color: var(--teal-dark);
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -326,7 +334,7 @@ h3 {
 /* Recommendation Card specific */
 .book-card-recommended-by {
   font-size: 0.9rem;
-  color: var(--sage-dark);
+  color: var(--olive-dark);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -364,13 +372,13 @@ h3 {
 }
 
 .search-input:hover {
-  border-color: var(--gold);
+  border-color: var(--teal);
 }
 
 .search-input:focus {
   outline: none;
-  border-color: var(--gold);
-  box-shadow: 0 4px 20px var(--shadow-warm-hover);
+  border-color: var(--teal);
+  box-shadow: 0 4px 20px rgba(74, 139, 139, 0.2);
 }
 
 /* Member Filter */
@@ -510,10 +518,20 @@ h3 {
   padding: 1.5rem 2rem;
   box-shadow: 0 4px 20px var(--shadow-warm);
   border: 1px solid var(--border-warm);
+  border-top: 4px solid var(--teal);
+}
+
+.nextup-section:nth-child(2) {
+  border-top-color: var(--olive);
 }
 
 .nextup-section h2 {
   margin-bottom: 0.25rem;
+  color: var(--teal-dark);
+}
+
+.nextup-section:nth-child(2) h2 {
+  color: var(--olive-dark);
 }
 
 .section-subtitle {
@@ -542,12 +560,12 @@ h3 {
 }
 
 .queue-card:hover {
-  border-color: var(--gold-muted);
+  border-color: var(--teal);
 }
 
 .queue-card.next-picker {
-  background: linear-gradient(135deg, var(--rust-light) 0%, var(--rust) 100%);
-  border-color: var(--rust);
+  background: linear-gradient(135deg, var(--teal-light) 0%, var(--teal-dark) 100%);
+  border-color: var(--teal);
 }
 
 .queue-card.next-picker .queue-position,
@@ -565,7 +583,7 @@ h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--rust);
+  color: var(--teal-dark);
   min-width: 50px;
   text-align: center;
 }
@@ -577,7 +595,7 @@ h3 {
 .queue-name {
   font-size: 1.1rem;
   margin-bottom: 0.25rem;
-  color: var(--rust-dark);
+  color: var(--olive-dark);
 }
 
 .queue-last-pick {
@@ -591,7 +609,7 @@ h3 {
 }
 
 .pick-date {
-  color: var(--sage-dark);
+  color: var(--teal);
 }
 
 .queue-total {
@@ -616,10 +634,20 @@ h3 {
   border: 1px solid var(--border-warm);
   font-size: 0.95rem;
   align-items: center;
+  transition: all 0.2s ease;
+}
+
+.recent-pick-item:hover {
+  border-color: var(--olive);
+  background: #FDFDFB;
+}
+
+.recent-pick-item:nth-child(odd) {
+  background: #FAFDF8;
 }
 
 .recent-pick-date {
-  color: var(--sage-dark);
+  color: var(--olive-dark);
   font-weight: 500;
 }
 
@@ -631,7 +659,7 @@ h3 {
 }
 
 .recent-pick-by {
-  color: var(--rust);
+  color: var(--teal-dark);
   font-weight: 500;
   text-align: right;
 }
@@ -760,7 +788,7 @@ h3 {
 }
 
 .form-success {
-  background: linear-gradient(135deg, var(--sage) 0%, var(--sage-dark) 100%);
+  background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%);
   color: white;
   padding: 1rem 1.5rem;
   border-radius: 10px;
@@ -796,7 +824,7 @@ h3 {
 }
 
 .type-tv {
-  background: var(--sage);
+  background: var(--teal);
   color: white;
 }
 
@@ -806,7 +834,7 @@ h3 {
 }
 
 .type-other {
-  background: var(--brown);
+  background: var(--olive);
   color: white;
 }
 
@@ -821,5 +849,152 @@ h3 {
 
   .submit-btn {
     width: 100%;
+  }
+}
+
+/* Upcoming Books Section */
+.upcoming-section {
+  max-width: 500px;
+  margin: 0 auto 1rem;
+}
+
+.upcoming-section h2 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  color: var(--rust-dark);
+}
+
+.upcoming-carousel {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.carousel-btn {
+  background: var(--rust);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.carousel-btn:hover {
+  background: var(--rust-dark);
+  transform: scale(1.1);
+}
+
+.upcoming-book-card {
+  background: var(--parchment);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 30px var(--shadow-warm);
+  border: 2px solid var(--gold);
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: 400px;
+  min-height: 180px;
+}
+
+.upcoming-cover {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.upcoming-info {
+  flex: 1;
+  text-align: left;
+}
+
+.upcoming-date {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--text-dark);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.upcoming-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  color: var(--rust-dark);
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+.upcoming-author {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.upcoming-picker {
+  color: var(--teal-dark);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--rust);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.carousel-dot:hover {
+  background: var(--rust-light);
+}
+
+.carousel-dot.active {
+  background: var(--rust);
+}
+
+@media (max-width: 768px) {
+  .upcoming-book-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  .upcoming-info {
+    text-align: center;
+  }
+
+  .upcoming-cover {
+    width: 80px;
+    height: 120px;
+  }
+
+  .carousel-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.25rem;
   }
 }

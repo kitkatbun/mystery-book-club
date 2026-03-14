@@ -2,14 +2,36 @@ import { useState, useMemo } from 'react';
 import BookCard from '../components/BookCard';
 import pastBooks from '../data/pastBooks.json';
 
+// Parse "Month Year" format to sortable date
+function parseMonthYear(dateStr) {
+  if (!dateStr) return new Date(0);
+
+  const months = {
+    'january': 0, 'february': 1, 'march': 2, 'april': 3,
+    'may': 4, 'june': 5, 'july': 6, 'august': 7,
+    'september': 8, 'october': 9, 'november': 10, 'december': 11
+  };
+
+  const parts = dateStr.toLowerCase().trim().split(/\s+/);
+  if (parts.length >= 2) {
+    const month = months[parts[0]];
+    const year = parseInt(parts[1]);
+    if (month !== undefined && !isNaN(year)) {
+      return new Date(year, month, 1);
+    }
+  }
+
+  return new Date(0); // Fallback for unparseable dates
+}
+
 function PastBooks() {
   const [searchQuery, setSearchQuery] = useState('');
 
   // Sort books by most recently read and filter by search
   const filteredBooks = useMemo(() => {
     const sorted = [...pastBooks].sort((a, b) => {
-      const dateA = new Date(a.dateRead);
-      const dateB = new Date(b.dateRead);
+      const dateA = parseMonthYear(a.dateRead);
+      const dateB = parseMonthYear(b.dateRead);
       return dateB - dateA;
     });
 
