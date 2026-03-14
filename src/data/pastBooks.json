@@ -1,5 +1,16 @@
 [
   {
+    "id": 123,
+    "title": "A Case of Mice and Murder: The Trials of Gabriel Ward",
+    "author": "Sally Smith",
+    "dateRead": "April 2026",
+    "coverImage": "https://m.media-amazon.com/images/I/715Y0z4XOiL._SY522_.jpg",
+    "isbn": "978163973928",
+    "recommendedBy": "Kris",
+    "genre": "Mystery",
+    "publicationDate": "July 14, 2024"
+  },
+  {
     "id": 122,
     "title": "We Solve Murders",
     "author": "Richard Osman",
