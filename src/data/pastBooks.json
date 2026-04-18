@@ -1,5 +1,16 @@
 [
   {
+    "id": 124,
+    "title": "The Body in the Garden",
+    "author": "Katharine Schellman",
+    "dateRead": "May 2026",
+    "coverImage": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.Nw-QXpaiyNYAxjg9wwBzQAHaHa%3Fpid%3DApi&f=1&ipt=3210f399da7f9106950555098637d8598be85d79ec1d841f0c54eba4fecf7ad0&ipo=images",
+    "isbn": "9781643853574",
+    "recommendedBy": "Martha",
+    "genre": "Mystery",
+    "publicationDate": "04/07/2020"
+  },
+  {
     "id": 123,
     "title": "A Case of Mice and Murder: The Trials of Gabriel Ward",
     "author": "Sally Smith",
