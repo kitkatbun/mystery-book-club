@@ -1,5 +1,16 @@
 [
   {
+    "id": 126,
+    "title": "The October Man",
+    "author": "Ben Aaronovitch",
+    "dateRead": "July 2026",
+    "coverImage": "https://m.media-amazon.com/images/I/61T7b5TaysL._SY522_.jpg",
+    "isbn": "1596069082",
+    "recommendedBy": "Carolyn",
+    "genre": "Mystery",
+    "publicationDate": "May 2019"
+  },
+  {
     "id": 125,
     "title": "Holy City",
     "author": "Henry Wise",
