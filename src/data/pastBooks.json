@@ -1,5 +1,16 @@
 [
   {
+    "id": 125,
+    "title": "Holy City",
+    "author": "Henry Wise",
+    "dateRead": "June 2026",
+    "coverImage": "https://m.media-amazon.com/images/I/81v4KEJJf-L._SY522_.jpg",
+    "isbn": "9780802162915",
+    "recommendedBy": "April",
+    "genre": "Mystery",
+    "publicationDate": "June 2024"
+  },
+  {
     "id": 124,
     "title": "The Body in the Garden",
     "author": "Katharine Schellman",
