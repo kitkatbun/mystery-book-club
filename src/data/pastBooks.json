@@ -1,5 +1,27 @@
 [
   {
+    "id": 129,
+    "title": "An Unsuitable Job for a Woman",
+    "author": "P. D. James",
+    "dateRead": "October 2026",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780743219556-M.jpg",
+    "isbn": "9780743219556",
+    "recommendedBy": "Jessie",
+    "genre": "Mystery",
+    "publicationDate": 1972
+  },
+  {
+    "id": 128,
+    "title": "Maisie Dobbs",
+    "author": "Jacqueline Winspear",
+    "dateRead": "September 2026",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9781569473306-M.jpg",
+    "isbn": "9781569473306",
+    "recommendedBy": "Kathy",
+    "genre": "Historical Mystery",
+    "publicationDate": "July 2003"
+  },
+  {
     "id": 127,
     "title": "The Proof of My Innocence",
     "author": "Jonathan Coe",
