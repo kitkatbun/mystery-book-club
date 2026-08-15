@@ -1,5 +1,16 @@
 [
   {
+    "id": 127,
+    "title": "The Proof of My Innocence",
+    "author": "Jonathan Coe",
+    "dateRead": "August 2026",
+    "coverImage": "https://images-na.ssl-images-amazon.com/images/P/0241678412.01.L.jpg",
+    "isbn": "9780241678411",
+    "recommendedBy": "Kat",
+    "genre": "Mystery",
+    "publicationDate": 2024
+  },
+  {
     "id": 126,
     "title": "The October Man",
     "author": "Ben Aaronovitch",
