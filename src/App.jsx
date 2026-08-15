@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import PastBooks from './pages/PastBooks';
 import Recommendations from './pages/Recommendations';
 import NextUp from './pages/NextUp';
-import './App.css';
+import './cozy-library.css';
 
 function App() {
   return (
