@@ -1,5 +1,16 @@
 [
   {
+    "id": 130,
+    "title": "All Spooked Up",
+    "author": "E.J. Copperman",
+    "dateRead": "November 2026",
+    "coverImage": "https://m.media-amazon.com/images/I/71eyodHtiSL._SY522_.jpg",
+    "isbn": "978-1448315208",
+    "recommendedBy": "Ellen",
+    "genre": "Mystery",
+    "publicationDate": "11/4/25"
+  },
+  {
     "id": 129,
     "title": "An Unsuitable Job for a Woman",
     "author": "P. D. James",
