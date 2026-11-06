@@ -1,5 +1,27 @@
 [
   {
+    "id": 132,
+    "title": "In The Bleak Midwinter",
+    "author": "Julia Spencer Fleming",
+    "dateRead": "December 2026",
+    "coverImage": "https://covers.openlibrary.org/b/isbn/9780312986766-M.jpg",
+    "isbn": "9780312986766",
+    "recommendedBy": "Andrea",
+    "genre": "Mystery",
+    "publicationDate": "3/14/2003"
+  },
+  {
+    "id": 131,
+    "title": "I'll Keep You Safe",
+    "author": "Peter May",
+    "dateRead": "November 2026",
+    "coverImage": "https://m.media-amazon.com/images/I/81M4XTW16gL._SY522_.jpg",
+    "isbn": "1529443997",
+    "recommendedBy": "Ellen",
+    "genre": "Mystery",
+    "publicationDate": "1/2018"
+  },
+  {
     "id": 130,
     "title": "All Spooked Up",
     "author": "E.J. Copperman",
